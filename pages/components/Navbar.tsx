@@ -14,7 +14,7 @@ const Navbar =() =>{
                 <Button variant={"ghost"} colorScheme={"whiteAlpha"} color={"black"}>See Whitepaper</Button>
             </Flex>
             <Flex justifyContent={"end"} px={"20px"} width={"25%"}>
-                <Button variant={"solid"} colorScheme={"cyan"} color={"white"} >Join Waitlist</Button>
+                <Link href='./components/ContactUs' ><Button variant={"solid"} colorScheme={"cyan"} color={"white"} >Join Waitlist</Button></Link>
             </Flex>
         </Flex>
     )
