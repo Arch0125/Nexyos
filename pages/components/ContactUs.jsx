@@ -5,7 +5,7 @@ import { Text,Input, Button, Flex, Box, Divider } from '@chakra-ui/react';
 const ContactUs = () => {
   const form = useRef();
 
-  const sendEmail = (e: { preventDefault: () => void; }) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_zexdado', 'template_8q94tnl', form.current, 'uCXyLxudrrEnzzx90')
