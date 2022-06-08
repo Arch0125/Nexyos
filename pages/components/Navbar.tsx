@@ -8,7 +8,7 @@ const Navbar =() =>{
                 <a href='/' ><img src='https://svgshare.com/i/i6p.svg' width={"150px"} /></a>
             </Flex>
             <Flex px={"10px"} alignItems={"center"} justifyContent={"space-between"} bgColor={"white"} width={"50%"} >
-                <Button variant={"ghost"} colorScheme={"whiteAlpha"} color={"black"}>For Customers</Button>
+                <a href='/Customer' ><Button variant={"ghost"} colorScheme={"whiteAlpha"} color={"black"}>For Customers</Button></a>
                 <a href='./Business' ><Button variant={"ghost"} colorScheme={"whiteAlpha"} color={"black"}>For Businesses</Button></a>
                 <Button variant={"ghost"} colorScheme={"whiteAlpha"} color={"black"}>See Whitepaper</Button>
             </Flex>
