@@ -45,11 +45,11 @@ const Business: NextPage = () => {
                     <Text fontSize={"4xl"} ><label className='heading' ><span className='cyantext' >Get paid in the Crypto you want</span></label></Text>
                     <Divider/>
                     <Text fontSize={"3xl"} ><label className='body' >Set your preferred token</label></Text>
-                    <Text fontSize={"3xl"} ><label className='body' >Nexyos will swap the customer's tokens for you, <br/> as per your convinience</label></Text>
+                    <Text fontSize={"3xl"} ><label className='body' >Nexyos will swap the customer&apos;s tokens for you, <br/> as per your convinience</label></Text>
                 </Flex>
             </Flex>
             <Flex  flex={'1'} width={"100vw"} justifyContent={'center'} textAlign={"center"} padding={"30px"} >
-                <a href='/Customer' ><Text>Check what we have for customers</Text></a>
+                <Link href='/Customer' ><Text>Check what we have for customers</Text></Link>
             </Flex>
         </Flex>
     )

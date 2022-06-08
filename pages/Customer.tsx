@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Flex,Box,Text } from '@chakra-ui/react';
 import { Divider } from '@chakra-ui/react';
+import Link from 'next/link';
 
 const Customer =()=>{
     return(
@@ -48,7 +49,7 @@ const Customer =()=>{
             </Flex>
         </Flex>
         <Flex  flex={'1'} width={"100vw"} justifyContent={'center'} textAlign={"center"} padding={"30px"} >
-            <a href='/Customer' ><Text>Check what we have for customers</Text></a>
+            <Link href='/Business' ><Text>Check what we have for Businesses</Text></Link>
         </Flex>
     </Flex>
     )
