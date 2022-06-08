@@ -5,3 +5,18 @@
     font-family: 'Space Grotesk','Delta Gothic One','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 900;
 }
+
+.body{
+    font-family: 'Space Grotesk','Delta Gothic One','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.cyantext{
+    color: rgb(29, 188, 188);
+}
+
+.bgtext{
+    background-color: #1dbcbc;
+    padding: 5px;
+    color: white;
+}

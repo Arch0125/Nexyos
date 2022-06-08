@@ -9,16 +9,9 @@ const Home: NextPage = () => {
     <Flex width={"100vw"} height={"100vh"} > 
         <Flex flexDirection={"column"} width={"50%"} padding={"80px"} >
           <Text fontSize={"7xl"} className='heading' >
-            Bring web3 <br/> payments to <br/> your products
+            Bring <label className='cyantext' >web3</label> <br/> payments to <br/> your <span className='cyantext' >products</span>
           </Text>
           <button className='getstarted' >Join Waitlist</button>
-          <Text mt={"40px"} >Till then go through services we are going to offer</Text>
-          <Flex flexDirection={"row"} > 
-          <ButtonGroup spacing={"30px"} mt={"20px"} > 
-              <Button variant={"outline"} colorScheme={"black"}>For Businesses</Button>
-              <Button variant={"outline"} colorScheme={"black"}>For Customers</Button>
-          </ButtonGroup>
-          </Flex>
         </Flex>
         <Flex>
           <img src='https://svgshare.com/i/i6a.svg' width={"600px"} />
