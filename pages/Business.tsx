@@ -5,7 +5,7 @@ import * as React from 'react';
 const Business: NextPage = () => {
     return(
         <Flex>
-            <Text>BUsinessPage</Text>
+            <label >heading</label>
         </Flex>
     )
 }
